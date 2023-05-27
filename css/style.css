@@ -1,0 +1,195 @@
+* {
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background: white;
+  width: 100%;
+}
+.top-nav {
+  padding: 0 1.25rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 66.25rem;
+    position: relative;
+
+}
+.main .top-nav {
+ box-shadow: 0 5px 20px rgba(240, 239, 239, 0.1);
+  display: flex;
+  justify-content: space-between;
+  background:white;
+  padding: 1% 10% 1% 10%;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  justify-items:flex-start;
+}
+.main .top-nav .logo {
+  height: auto;
+  width: 45%;
+ 
+}
+.main .top-nav .logo a img {
+  width: 150px;
+  height: 40px;
+  justify-items: right;
+  
+}
+.main .top-nav .search {
+  display: flex;
+  padding: 1px;
+  width: 27%;
+  -moz-column-gap: 2px;
+       column-gap: 2px;
+}
+.main .top-nav .search form {
+  display: flex;
+  padding: 7px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  width: 100%;
+  background: #ffffff;
+}
+.main .top-nav .search form input {
+  padding: 5px;
+  width: 90%;
+  font-size: 13px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.main .top-nav .search form button {
+  width: 50px;
+  border: none;
+  font-size: 19px;
+  border-radius: 4px;
+  background: #ffffff;
+}
+.main .top-nav .sett {
+  position: relative;
+  margin-left: 0px;
+  padding: 3px;
+}
+.main .top-nav .sett .user {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.main .top-nav .sett .user select {
+  border-radius: 2px;
+  border: 1px solid grey;
+  background: #efeff0;
+  padding: 10px;
+  font-size: 15px;
+}
+.main .top-nav .sett .user button {
+  padding: 12px;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  background:#d40356;;
+}
+.main .main-cont .menus {
+  display: flex;
+  margin-top: 1%;
+  justify-content: space-between;
+  padding: 5 30% 5 30%;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+}
+.main .main-cont .menus a {
+  text-decoration: none;
+  font-size: small;
+  padding: 6px;
+  color: #343a40;
+}
+.main .main-cont .menus a:hover {
+  background: rgb(215, 236, 236);
+  color: blue;
+}
+.main .background {
+  display: flex;
+  background: #343a40;
+  margin-top: 3%;
+  width: 100%;
+  height: 450px;
+}
+.main .background .bg-image {
+  position: relative;
+  width: 100%;
+  animation-duration: 4sec;
+  animation-direction: reverse;
+}
+.main .background .bg-image a img {
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 100%;
+  height: 450px;
+  ;
+}
+.main .background .link {
+  width: 80%;
+  position: absolute;
+  margin-top: 5.5%;
+  margin-left: 11.7%;
+}
+.main .background .link .another {
+  max-width: 460px;
+  background: #f6c608;
+  padding: 1.3%;
+}
+.main .background .link .another a {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 3%;
+  color: #000000;
+  line-height: 1.6;
+}
+.main .background .link .another a:hover {
+  text-decoration: underline;
+}
+.main .about-section {
+  display: flex;
+  padding: 5% 10% 3% 10%;
+  width: 100%;
+  max-height: 500px;
+  justify-content: space-between;
+}
+.main .about-section .text-about {
+  width: 67%;
+  padding: 4px;
+  height: 300px;
+}
+.main .about-section .text-about p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: arial;
+  line-height: 2;
+}
+.main .about-section .protect {
+  width: 27%;
+}
+.main .about-section .protect button {
+  margin-top: 8px;
+  background-color: #3a25ff;
+  border: none;
+  padding: 7px;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 17px;
+}
+.main .about-section .protect p {
+  margin-top: 3px;
+  font-size: smaller;
+  color: #343a40;
+}/*# sourceMappingURL=style.css.map */
